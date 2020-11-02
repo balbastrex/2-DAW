@@ -1,0 +1,5 @@
+Ejercicio 1.- Modifica el MVC sencillo que se proporciona en esta actividad de forma que:
+
+Tenga una acción por defecto que muestre una plantilla por defecto en la que se muestre los datos de una empresa ficticia (NIF, Razon Social, Dirección, teléfono)
+Modifica las plantillas para que tengan un menu que muestre los enlaces que representan las acciones por defecto, "articulo" y "foto", de forma que desde cualquier página podamos acceder al resto. Dado que se producen efectos no deseados al construir los enlaces, la lógica de la vista dispone de una referencia adicional para obtener la ruta completa de controller.php, en este caso es {ruta}
+Crea una pequeña base de datos en MySql y traspasa los datos de las variables diccionario a ésta. Modifica el código para que la información visualizada en las plantillas se obtenga de esta base de datos.
